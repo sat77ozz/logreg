@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 # Load trained statsmodels model
-with open("logreg_rfe_model.pkl", "rb") as f:
+with open("logreg_sklearn_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # Define feature names used in training
